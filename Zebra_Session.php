@@ -1,5 +1,7 @@
 <?php
 
+namespace ZebraSession;
+
 /**
  *  A PHP library acting as a drop-in replacement for PHP's default session handler, but instead of storing session data
  *  in flat files it stores them in a MySQL database, providing better performance as well as better security and
